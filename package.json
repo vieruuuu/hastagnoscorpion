@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vieruuuu/hastagnoscorpion/issues"
   },
-  "homepage": "https://github.com/vieruuuu/hastagnoscorpion#readme"
+  "homepage": "https://github.com/vieruuuu/hastagnoscorpion#readme",
+  "devDependencies": {
+    "electron": "^9.1.0"
+  }
 }
