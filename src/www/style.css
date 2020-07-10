@@ -1,3 +1,4 @@
+
 #button1 {
     background-color:red; 
     border: none;
@@ -7,4 +8,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    
+    
   }
+
+  body {
+    background-image: url("./thumb-1920-108296.jpg");
+
+   }
