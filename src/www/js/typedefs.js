@@ -3,7 +3,6 @@
  */
 export class Caracter {
     /**
-     * 
      * @param {string} name numele caracterului 
      * @param {string} url url sau path catre poza
      */
