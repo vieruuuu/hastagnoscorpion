@@ -1,5 +1,8 @@
 const { app, BrowserWindow } = require("electron");
 
+/**
+ * creeaza fereastra principala
+ */
 function createWindow() {
   // fac fereastra principala
   const mainWindow = new BrowserWindow({
