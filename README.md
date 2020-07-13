@@ -9,3 +9,7 @@ de fapt am facut asta ca sa scoatem noob
 ## Cum sa rulezi
 
 `npm start`
+
+## TODO: Cum sa compilezi
+
+`npm compile`
