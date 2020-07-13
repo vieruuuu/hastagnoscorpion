@@ -1,3 +1,5 @@
+import { Caracter } from "./typedefs.js";
+
 /**
  * returneaza un Caracter random si o lista noua
  * @param {Caracter[]} Caractere un array cu Caracterele
