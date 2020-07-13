@@ -1,0 +1,12 @@
+{
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
