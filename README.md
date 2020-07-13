@@ -12,4 +12,4 @@ de fapt am facut asta ca sa scoatem noob
 
 ## TODO: Cum sa compilezi
 
-`npm compile`
+`npm run compile`
