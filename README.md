@@ -1,5 +1,11 @@
 # hastagnoscorpion
 
-de fapt am facut asta ca sa bagam noob 
+de fapt am facut asta ca sa scoatem noob
 
-haha haha muje jaxi
+## Instaleaza deps
+
+`npm i`
+
+## Cum sa rulezi
+
+`npm start`
