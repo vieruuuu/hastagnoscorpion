@@ -1,22 +1,22 @@
 {
   "name": "hastagnoscorpion",
+  "author": "vieruuuu & buzzy844",
   "version": "1.0.0",
-  "description": "",
+  "description": "iti arata pe cn sa nu joci in mk sau orice alt joc",
   "main": "./src/app/index.js",
   "scripts": {
     "start": "electron .",
     "lint": "eslint ."
   },
+  "license": "ISC",
+  "homepage": "https://github.com/vieruuuu/hastagnoscorpion#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vieruuuu/hastagnoscorpion.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/vieruuuu/hastagnoscorpion/issues"
   },
-  "homepage": "https://github.com/vieruuuu/hastagnoscorpion#readme",
   "devDependencies": {
     "electron": "^9.1.0",
     "electron-builder": "^22.7.0",
