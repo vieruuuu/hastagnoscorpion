@@ -1,8 +1,13 @@
-import { getRandom } from "./functions.js";
+// eslint-disable-next-line no-unused-vars
+import { Caracter } from "./typedefs.js";
+import { getRandom, render } from "./functions.js";
 import { Caractere } from "./data/index.js";
 
 const { mk9 } = Caractere;
 
-console.log(getRandom(mk9));
+/**
+ * pe asta se randeaza caracterele
+ */
+const element = document.getElementById("box-holder");
 
-console.log("sal");
+render(element, [...mk9]);
