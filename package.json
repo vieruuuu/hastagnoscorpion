@@ -3,10 +3,10 @@
   "author": "vieruuuu & buzzy844",
   "version": "1.0.0",
   "description": "iti arata pe cn sa nu joci in mk sau orice alt joc",
-  "main": "./src/app/index.js",
   "scripts": {
     "start": "electron .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "dist": "electron-builder"
   },
   "license": "ISC",
   "homepage": "https://github.com/vieruuuu/hastagnoscorpion#readme",
@@ -16,6 +16,12 @@
   },
   "bugs": {
     "url": "https://github.com/vieruuuu/hastagnoscorpion/issues"
+  },
+  "main": "./src/app/index.js",
+  "build": {
+    "appId": "vieruuuu.hastagnoscorpion",
+    "productName": "hastagnoscorpion",
+    "icon": "./src/assets/icon.png"
   },
   "devDependencies": {
     "electron": "^9.1.0",

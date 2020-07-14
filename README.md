@@ -10,6 +10,6 @@ de fapt am facut asta ca sa scoatem noob
 
 `npm start`
 
-## TODO: Cum sa compilezi
+## Cum sa compilezi
 
-`npm run compile`
+`npm run dist`
