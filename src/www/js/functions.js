@@ -17,7 +17,6 @@ import { Caracter } from "./typedefs.js";
  * console.log(run2)
  *
  */
-
 export function getRandom(Caractere) {
   const len = Caractere.length;
 
