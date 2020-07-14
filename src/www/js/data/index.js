@@ -1,4 +1,4 @@
-import { mk9 } from "./mk9";
+import { mk9 } from "./mk9.js";
 
 /**
  * Lista de caractere toate jocurile
