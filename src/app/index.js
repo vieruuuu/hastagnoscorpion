@@ -6,6 +6,7 @@ const { app, BrowserWindow } = require("electron");
 function createWindow() {
   // fac fereastra principala
   const mainWindow = new BrowserWindow({
+    minWidth: 800,
     width: 800,
     height: 600,
   });
