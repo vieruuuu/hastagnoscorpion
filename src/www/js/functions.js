@@ -32,13 +32,23 @@ export function getRandom(Caractere) {
 }
 
 /**
+ * template pentru functia render
+ * @param {Caracter} caracter
+ * @returns {string} htmlul pentru un caracter
+ */
+const template = (caracter) =>
+  `<div class="box">
+    <p>${caracter.name}</p>
+    <img src="./../assets/characters/${caracter.url}" alt="${caracter.name}" />
+   </div>`;
+
+/**
  * afiseaza o lista de caractere folosind un template
  * @param {HTMLElement} element elementul in care afiseze caracterele
  * @param {Caracter[]} data un array cu caractere
- * @param {function(Caracter): string} template ia un Caracter si returneaza ce html ar trebui sa se afiseze
  * @returns {Void}
  */
-export function render(element, data, template) {
+export function render(element, data) {
   let renderedData = "";
 
   for (let i = 0; i < data.length; i++) {
