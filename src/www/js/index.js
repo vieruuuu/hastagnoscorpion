@@ -1,6 +1,8 @@
 import { getRandom } from "./functions.js";
-import { Caractere } from "./data.js";
+import { Caractere } from "./data/index.js";
 
-console.log(getRandom(Caractere));
+const { mk9 } = Caractere;
+
+console.log(getRandom(mk9));
 
 console.log("sal");

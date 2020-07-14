@@ -1,10 +1,9 @@
-import { Caracter } from "./typedefs.js";
+import { Caracter } from "../typedefs.js";
 
 /**
- * lista de caractere
- * @type {Caracter[]}
+ * lista de caractere mk9
  */
-export const Caractere = [
+export const mk9 = [
   new Caracter("Scorpion1"),
   new Caracter("Scorpion2"),
   new Caracter("Scorpion3"),
