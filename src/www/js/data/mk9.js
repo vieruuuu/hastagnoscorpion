@@ -31,7 +31,7 @@ export const mk9 = [
   new Caracter("Sektor", "mk9/sektor.png"),
   new Caracter("Shang Tsung", "mk9/shang_tsung.png"),
   new Caracter("Sheeva", "mk9/sheeva.png"),
-  new Caracter("Sindel", "mk9/sindel.png"),
+  // new Caracter("Sindel", "mk9/sindel.png"),
   new Caracter("Skarlet", "mk9/skarlet.png"),
   new Caracter("Smoke", "mk9/smoke.png"),
   new Caracter("Sonya Blade", "mk9/sonya_blade.png"),
