@@ -10,11 +10,51 @@
 }
 
 #box-holder {
-  max-width: 700px;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
+}
+
+.box-holderr {
+  width: 700px !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+@media only screen and (min-width: 900px) {
+  #box-holder {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  #box-holder {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1220px) {
+  #box-holder {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1380px) {
+  #box-holder {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1540px) {
+  #box-holder {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #box-holder {
+    grid-template-columns: repeat(10, 1fr);
+  }
 }
 
 .box {
