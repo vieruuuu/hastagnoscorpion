@@ -6,8 +6,6 @@ import { Caractere } from "./data/index.js";
 
 const { mk9 } = Caractere;
 
-const OSAOFOLOSIMNOICANDVA
-
 /**
  * pe asta se randeaza caracterele
  */
