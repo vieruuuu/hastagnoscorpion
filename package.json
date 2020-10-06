@@ -24,7 +24,7 @@
     "icon": "./src/assets/icon.png"
   },
   "devDependencies": {
-    "electron": "^9.1.0",
+    "electron": "^9.3.1",
     "electron-builder": "^22.7.0",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
